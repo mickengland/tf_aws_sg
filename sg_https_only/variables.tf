@@ -9,5 +9,7 @@ variable "vpc_id" {
 
 variable "source_cidr_block" {
   description = "The source CIDR block to allow traffic from"
+  type = "list"
   default = "0.0.0.0/0"
+
 }
